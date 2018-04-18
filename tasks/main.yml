@@ -44,7 +44,7 @@
     state: started
     enabled: yes
 
-name: Download and install docker-compose
+- name: Download and install docker-compose
   get_url:
     url: "{{ docker_compose_url }}"
     dest: "{{ docker_compose_install_prefix }}/bin/docker-compose"
